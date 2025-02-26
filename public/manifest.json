@@ -1,0 +1,16 @@
+{
+  "name": "Doompocalypse",
+  "short_name": "Doompocalypse",
+  "description": "The apocalyptic virtual world where you can earn crypto by playing and convert it into real money.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+} 

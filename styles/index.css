@@ -1,0 +1,53 @@
+/* Global styles */
+body {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Loader animation */
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Wallet button container */
+.wallet-container {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .wallet-container {
+    top: 16px;
+    right: 16px;
+  }
+}
+
+/* Card hover animation */
+.nft-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nft-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+} 
